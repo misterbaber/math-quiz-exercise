@@ -1,9 +1,9 @@
 /**
  * Utility methods used across the math quiz exercise.
  *
- * <p>This class provides small helper functions such as rounding a double
+ * This class provides small helper functions such as rounding a double
  * to a specified number of decimal places and generating a random integer
- * inside a inclusive range.</p>
+ * inside a inclusive range.
  */
 public class Methods {
     /**
@@ -13,12 +13,8 @@ public class Methods {
      * @param value the value to round.
      * @return the value rounded to {@code places} decimal places.
      *
-     * <p>Examples:
-     * <pre>
      * roundDouble(2, 3.14159) // returns 3.14
      * roundDouble(0, 2.7)     // returns 3.0
-     * </pre>
-     *</p>
      */
     public static double roundDouble(int places, double value) {
         double scale = Math.pow(10, places);
