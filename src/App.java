@@ -9,5 +9,9 @@ public class App {
         System.out.println("You entered " + number);
 
         // You can also use the Methods class I created to get random numbers.
+        // Let's change the value of number, created above, to a random number from 1 to 100.
+        number = Methods.getInt(1, 100);
+        System.out.println("Your random number is " + number);
+        
     }
 }
